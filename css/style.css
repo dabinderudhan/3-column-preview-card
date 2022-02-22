@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 2rem; }
+
+@media (min-width: 62.5rem) {
+  body {
+    height: 100vh;
+    margin: 0; } }
+
+body {
+  font-size: 0.9375rem;
+  font-family: "lexend deca";
+  font-weight: 400;
+  background-color: #f2f2f2;
+  color: "lexend deca"; }
+
+.card-col {
+  color: rgba(255, 255, 255, 0.75); }
+  .card-col--heading {
+    font-family: "big shoulders display";
+    color: #f2f2f2;
+    text-transform: uppercase; }
+  .card-col--para {
+    line-height: 1.5; }
+
+.btn {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 2px solid transparent;
+  padding: 1rem 2.3rem;
+  border-radius: 30px;
+  font-family: "lexend deca";
+  font-weight: 400; }
+  .btn:hover {
+    background-color: transparent;
+    border: 2px solid #f2f2f2;
+    color: #f2f2f2; }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-col {
+  flex-direction: column; }
+
+.flex-row {
+  flex-direction: row; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem; }
+  .attribution a {
+    color: #3e52a3; }
+
+.grid {
+  display: grid; }
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr); }
+
+.grid-row-3 {
+  grid-template-rows: repeat(3, 1fr); }
+
+.container {
+  max-width: 23.4375rem;
+  padding-inline: 2rem; }
+
+.card-wrapper {
+  border-radius: 10px;
+  overflow: hidden; }
+
+@media (min-width: 62.5rem) {
+  .container {
+    max-width: 58.3125rem; }
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; } }
+
+.card-col {
+  padding: 2.5rem;
+  gap: 1rem;
+  align-items: start; }
+  .card-col--heading {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .card-col--1 {
+    background-color: #e38826; }
+  .card-col--2 {
+    background-color: #006970; }
+  .card-col--3 {
+    background-color: #004241; }
+
+.btn {
+  margin-top: 4rem; }
+  .btn--1 {
+    color: #e38826; }
+  .btn--2 {
+    color: #006970; }
+  .btn--3 {
+    color: #004241; }

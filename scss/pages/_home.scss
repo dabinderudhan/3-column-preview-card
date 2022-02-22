@@ -1,0 +1,59 @@
+.container {
+  max-width: 23.4375rem; // 375px
+  padding-inline: 2rem;
+}
+
+.card-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 62.5rem) {
+  .container {
+    max-width: 58.3125rem;
+  }
+
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}
+
+.card-col {
+  padding: 2.5rem;
+  gap: 1rem;
+  align-items: start;
+
+  &--heading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &--1 {
+    background-color: $color-primary-light;
+  }
+
+  &--2 {
+    background-color: $color-primary-dark;
+  }
+
+  &--3 {
+    background-color: $color-primary-darker;
+  }
+}
+
+.btn {
+  margin-top: 4rem;
+
+  &--1 {
+    color: $color-primary-light;
+  }
+
+  &--2 {
+    color: $color-primary-dark;
+  }
+
+  &--3 {
+    color: $color-primary-darker;
+  }
+}

@@ -1,0 +1,15 @@
+.btn {
+  cursor: pointer;
+  background-color: $color-bgheadbtn;
+  border: 2px solid transparent;
+  padding: 1rem 2.3rem;
+  border-radius: 30px;
+  font-family: $ff-body;
+  font-weight: $fw-body;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $color-bgheadbtn;
+    color: $color-bgheadbtn;
+  }
+}

@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-row-3 {
+  grid-template-rows: repeat(3, 1fr);
+}

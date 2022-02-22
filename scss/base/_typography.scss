@@ -1,0 +1,22 @@
+body {
+  font-size: $fs-body;
+  font-family: $ff-body;
+  font-weight: $fw-body;
+  background-color: $color-bgheadbtn;
+  color: $ff-body;
+}
+
+.card-col {
+  color: $color-para;
+
+  &--heading {
+    font-family: $ff-heading;
+    color: $color-bgheadbtn;
+
+    text-transform: uppercase;
+  }
+
+  &--para {
+    line-height: 1.5;
+  }
+}
