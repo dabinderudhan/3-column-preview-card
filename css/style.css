@@ -15,16 +15,17 @@ body {
 
 body {
   font-size: 0.9375rem;
-  font-family: "lexend deca";
+  font-family: "lexend deca", sans-serif;
   font-weight: 400;
   background-color: #f2f2f2;
-  color: "lexend deca"; }
+  color: "lexend deca", sans-serif; }
 
 .card-col {
   color: rgba(255, 255, 255, 0.75); }
   .card-col--heading {
-    font-family: "big shoulders display";
+    font-family: "big shoulders display", sans-serif;
     color: #f2f2f2;
+    font-size: 2.5rem;
     text-transform: uppercase; }
   .card-col--para {
     line-height: 1.5; }
@@ -35,7 +36,7 @@ body {
   border: 2px solid transparent;
   padding: 1rem 2.3rem;
   border-radius: 30px;
-  font-family: "lexend deca";
+  font-family: "lexend deca", sans-serif;
   font-weight: 400; }
   .btn:hover {
     background-color: transparent;
