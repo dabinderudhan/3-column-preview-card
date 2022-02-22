@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/dabinderudhan/3-column-preview-card)
-- Live Site URL: [live URL](https://your-live-site-url.com)
+- Live Site URL: [live URL](https://dabinderudhan.github.io/3-column-preview-card/)
 
 ## My process
 
